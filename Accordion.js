@@ -26,7 +26,6 @@ class Accordion extends React.Component {
     }
 
     renderContent(currentSectionIndex, i) {
-
         if (this.state.currentSectionIndex === i) {
             return (
                 <div className='content'>
